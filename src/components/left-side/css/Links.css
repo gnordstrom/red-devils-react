@@ -1,0 +1,12 @@
+.links {
+  text-align: center;
+  margin: 5px auto 0px auto;
+}
+
+.links a {
+    color: white;
+}
+
+.links a:hover {
+    color: rgb(158, 0, 0);
+}

@@ -1,0 +1,19 @@
+.header {
+    width: 100%;
+    height: 15%;
+    border-bottom: 10px solid #2d2c2c;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.header-left {
+    background-image: url('../manutd-logo-icon.jpg');
+    background-repeat: no-repeat;
+    width: 79px;
+    height: 84px;
+    margin: 5px;
+}

@@ -1,0 +1,25 @@
+.footerbox {
+  color: white;
+  text-align: center;
+  padding: 5px 5px;
+}
+
+.footerbox a:focus {
+  text-decoration: none;
+}
+#footerName {
+  color: steelblue;
+  text-decoration: none;
+}
+.icon {
+    display: inline-block;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.icon a {
+    color: white;
+}
+.icon a:hover {
+    color: steelblue;
+}

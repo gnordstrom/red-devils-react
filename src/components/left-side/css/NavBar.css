@@ -1,0 +1,20 @@
+.navbar {
+    width: 100%;
+    color: white;
+    margin: 0px auto 5px auto;
+    display: block;
+}
+
+
+.btn {
+    padding: 10px;
+    margin: 10px 5px;
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    /*color: white;*/
+}
+
+button:hover {
+    text-decoration: none;
+}
