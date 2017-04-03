@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 
-import './css/Roster.css';
+import './Results.css';
 
-class Roster extends Component {
+class Results extends Component {
     render() {
         return (
             <div>
-                <h2>Roster View</h2>
+                <h1>Results view</h1>
             </div>
         );
     }
 }
 
-export default Roster;
+export default Results;

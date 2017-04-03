@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 
-import './css/Schedule.css';
+import './Table.css';
 
-class Schedule extends Component {
+class Table extends Component {
     render() {
         return (
             <div>
-                <h2>Schedule</h2>
+                <h2>Table view</h2>
             </div>
         );
     }
 }
 
-export default Schedule;
+export default Table;

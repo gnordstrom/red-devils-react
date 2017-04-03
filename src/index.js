@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom';
 import { Router, Route, hashHistory } from 'react-router';
 
 import Main from './components/Main';
-import Home from './components/views/Home';
-import Results from './components/views/Results';
-import Roster from './components/views/Roster';
-import Schedule from './components/views/Schedule';
-import Table from './components/views/Table';
+import Home from './components/views/home/Home';
+import Results from './components/views/results/Results';
+import Roster from './components/views/roster/Roster';
+import Schedule from './components/views/schedule/Schedule';
+import Table from './components/views/table/Table';
 
 import './index.css';
 

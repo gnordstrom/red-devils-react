@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 
-import './css/Results.css';
+import './Schedule.css';
 
-class Results extends Component {
+class Schedule extends Component {
     render() {
         return (
             <div>
-                <h1>Results view</h1>
+                <h2>Schedule</h2>
             </div>
         );
     }
 }
 
-export default Results;
+export default Schedule;

@@ -8,6 +8,23 @@
     display: flex;
 }
 
+@media screen and (min-width: 1020px) {
+    .main-wrapper {
+        height: 675px;
+        width: 850px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .main-wrapper {
+        height: 775px;
+        width: 1300px;
+    }
+    .videoPlayer {
+        height: 511px;
+    }
+}
+
 /*.left-side {
     width: 25%;
     height: 100%;

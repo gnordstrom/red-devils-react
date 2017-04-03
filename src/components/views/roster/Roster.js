@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 
-import './css/Table.css';
+import './Roster.css';
 
-class Table extends Component {
+class Roster extends Component {
     render() {
         return (
             <div>
-                <h2>Table view</h2>
+                <h2>Roster View</h2>
             </div>
         );
     }
 }
 
-export default Table;
+export default Roster;
