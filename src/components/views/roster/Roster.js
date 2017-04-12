@@ -23,7 +23,7 @@ class Roster extends Component {
     }
 
     render() {
-        const { roster } = this.state;
+        // const { roster } = this.state;
         // console.log(this.state.roster)
 
         let rosterList = this.state.roster.map((roster, i) => {
@@ -34,6 +34,7 @@ class Roster extends Component {
                     <td>{roster.position}</td>
                     <td>{roster.dateOfBirth}</td>
                     <td>{roster.nationality}</td>
+                    <td>{roster.marketValue}</td>
                 </tr>
             )
         })
@@ -50,6 +51,7 @@ class Roster extends Component {
                             <th>Position</th>
                             <th>Date of Birth</th>
                             <th>Nationality</th>
+                            <th>Market Value</th>
                         </tr>
                         </thead>
                         <tbody>

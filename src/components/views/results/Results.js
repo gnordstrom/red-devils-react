@@ -15,7 +15,7 @@ class Results extends Component {
 
     componentDidMount() {
         getResults().then((results) => {
-            console.log("before state change",results);
+            // console.log("before state change",results);
             this.setState({
                 results: results.fixtures
             }) 
@@ -23,11 +23,11 @@ class Results extends Component {
     }
 
     render() {
-        const { results } = this.state;
-        console.log("look here",results);
+        // const { results } = this.state;
+        // console.log("look here",results);
         let resultsList = this.state.results.reverse().map((results, i) => {
             return (
-                <tr>
+                <tr key={i}>
                     <td>{results.matchday}</td>    
                     <td id="teamName">{results.homeTeamName}</td>
                     <td>{results.result.goalsHomeTeam}</td>
