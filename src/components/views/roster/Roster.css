@@ -1,0 +1,34 @@
+.resultsList :-webkit-scrollbar {
+    display: none;
+}
+
+.results-header {
+    text-align: center;
+    font-size: 28px;
+}
+
+.rosterList {
+  overflow: auto;
+  height: 608px;
+}
+
+#table-header {
+  background-color: rgb(187, 0, 0);
+}
+
+#teamName {
+  text-align: center;
+}
+
+@media screen and (min-width: 1020px) {
+    .resultsList {
+        overflow: auto;
+        height: 607px;
+    }   
+}
+@media screen and (min-width: 1200px) {
+    .resultsList {
+        overflow: auto;
+        height: 607px;
+    }   
+}
