@@ -40,7 +40,7 @@ class Results extends Component {
 
         return (
             <div>
-                <h5 className="results-header">Recent Results</h5>
+                <h5 className="view-title">Recent Results</h5>
                 <div className="resultsList">
                     <table className="table table-striped table-hover">
                         <thead id="table-header">

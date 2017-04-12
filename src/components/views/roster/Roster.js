@@ -41,7 +41,7 @@ class Roster extends Component {
 
         return (
             <div>
-                <h5 id="teamName">Team Roster</h5>
+                <h5 className="view-title">Team Roster</h5>
                 <div className="rosterList">
                     <table className="table table-striped table-hover">
                         <thead id="table-header">

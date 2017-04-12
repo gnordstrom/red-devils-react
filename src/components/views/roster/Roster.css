@@ -1,12 +1,13 @@
-.resultsList :-webkit-scrollbar {
+.rosterList :-webkit-scrollbar {
     display: none;
 }
 
-.results-header {
+.view-title {
     text-align: center;
     font-size: 28px;
 }
 
+/* Only value changing */
 .rosterList {
   overflow: auto;
   height: 608px;
@@ -21,13 +22,13 @@
 }
 
 @media screen and (min-width: 1020px) {
-    .resultsList {
+    .rosterList {
         overflow: auto;
         height: 607px;
     }   
 }
 @media screen and (min-width: 1200px) {
-    .resultsList {
+    .rosterList {
         overflow: auto;
         height: 607px;
     }   
