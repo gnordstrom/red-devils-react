@@ -8,6 +8,12 @@
     display: flex;
 }
 
+@media screen and (min-width: 720px) {
+    .main-wrapper {
+        height: 475px;
+        width: 750px;
+    }
+}
 @media screen and (min-width: 1020px) {
     .main-wrapper {
         height: 675px;
@@ -18,10 +24,8 @@
 @media screen and (min-width: 1200px) {
     .main-wrapper {
         height: 775px;
-        width: 1300px;
-    }
-    .videoPlayer {
-        height: 511px;
+        width: 1250px;
+        margin-top: 80px;
     }
 }
 

@@ -7,9 +7,15 @@
     border-top: 10px solid #2d2c2c;
     border-bottom: 10px solid #2d2c2c;
 }
-
+@media screen and (min-width: 1020px) {
+    .youtube {
+        height: 450px;
+        width: 750px;
+    }
+}
 @media screen and (min-width: 1200px) {
-    .videoPlayer {
-        height: 511px;
+    .youtube {
+        height: 472px;
+	    width: 645px;
     }
 }
