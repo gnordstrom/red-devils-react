@@ -1,0 +1,35 @@
+.scheduleList :-webkit-scrollbar {
+    display: none;
+}
+
+.view-title {
+    text-align: center;
+    font-size: 28px;
+}
+
+/* Only value changing */
+.scheduleList {
+  overflow: auto;
+  height: 608px;
+}
+
+#table-header {
+  background-color: rgb(187, 0, 0);
+}
+
+#teamName {
+  text-align: center;
+}
+
+@media screen and (min-width: 1020px) {
+    .scheduleList {
+        overflow: auto;
+        height: 607px;
+    }   
+}
+@media screen and (min-width: 1200px) {
+    .scheduleList {
+        overflow: auto;
+        height: 607px;
+    }   
+}
