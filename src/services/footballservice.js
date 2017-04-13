@@ -63,15 +63,15 @@ export function getSchedule() {
 }
 
 // Table
-// export function getTable() {
-//     return axios({
-//         method: 'GET',
-//         url:'http://api.football-data.org/v1/competitions/426/leagueTable', 
-//         headers: {'X-Auth-Token': 'e96b093863bd40a6b71baa34f628e13b'}
-//     })
-//     .then(res => res.data.standing)
-//     .catch(err => {
-//         throw err;
-//         return {};
-//     })
-// }
+export function getTable() {
+    return axios({
+        method: 'GET',
+        url:'http://api.football-data.org/v1/competitions/426/leagueTable', 
+        headers: {'X-Auth-Token': 'e96b093863bd40a6b71baa34f628e13b'}
+    })
+    .then(res => res.data.standing)
+    .catch(err => {
+        throw err;
+        return {};
+    })
+}
